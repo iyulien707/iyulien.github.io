@@ -92,6 +92,7 @@ main {
 }
 
 table, th, td {
+    background-color: #1a1a1a;
      padding:5px;
     border: solid;
      color: white;
