@@ -36,7 +36,7 @@ h1 {
 }
 
 header {
-    background-color: cyan;
+    background-color: #1a1a1a;
     border-style: solid;
     border-color: white;
     display: flex;
@@ -64,7 +64,7 @@ nav a:hover {
 }
 
 footer{
-    background-color: cyan;
+    background-color: #1a1a1a;
     border-style: solid;
     border-color: white;
     color:white;
