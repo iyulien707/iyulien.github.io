@@ -1,0 +1,111 @@
+
+@font-face {
+  font-family: 'MyCustomFont';
+  src: url("assets/fonts/abc.ttf") format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    background-color: black;
+    border: 5px white solid;
+    position: static;
+
+    display: flex;
+    flex-direction: column;
+}
+
+p {
+    color: white;
+    font-family: 'MyCustomFont', sans-serif;
+    font-size: 30px;
+}
+
+h1 {
+    color: white;
+    font-family: 'MyCustomFont', sans-serif;
+    font-size: 50px;
+}
+
+header {
+    border-style: solid;
+    border-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+}
+
+.logo img {
+    width: 60px;      /* Adjust the size as needed */
+    height: auto;
+    display: block;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-family: 'MyCustomFont', sans-serif;
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: yellow;
+}
+
+footer{
+    border-style: solid;
+    border-color: white;
+    color:white;
+    text-align:center;
+    padding:15px;
+    
+
+}
+
+main {
+    display: flex;
+      flex: 1; 
+    justify-content: space-between;
+    align-items: center;
+    margin: 70px;
+}
+
+.text {
+    max-width: 50%;
+}
+
+.image img {
+    width: 300px;
+    height: auto;
+}
+
+table, th, td {
+     padding:5px;
+    border: solid;
+     color: white;
+    text-decoration: none;
+    font-family: 'MyCustomFont', sans-serif;
+    margin-right: 20px;
+        font-size: 20px;
+}
+
+.mods a {
+    color: yellow;
+    font-family: 'MyCustomFont', sans-serif;
+    margin-left: 20px;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.socials img {
+    width: 100px;  
+}
